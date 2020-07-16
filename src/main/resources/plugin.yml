@@ -1,0 +1,7 @@
+name: PerWorldSimpleChat
+version: ${project.version}
+main: me.hsgamer.perworldsimplechat.PerWorldSimpleChat
+api-version: 1.16
+depend: [PlaceholderAPI]
+authors: [HSGamer]
+description: Simple Chat Formatter Per World
