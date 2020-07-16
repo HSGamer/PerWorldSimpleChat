@@ -29,6 +29,7 @@ public final class PerWorldSimpleChat extends JavaPlugin implements Listener {
 
   @Override
   public void onEnable() {
+    getServer().getPluginManager().registerEvents(this, this);
     loadConfig();
   }
 
